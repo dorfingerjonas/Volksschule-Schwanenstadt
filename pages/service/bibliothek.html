@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Schwanenstadt</title>
+    <link rel="stylesheet" href="../../style/content.css">
+    <link rel="stylesheet" href="../../style/menu.css">
+    <link rel="stylesheet" href="../../style/footer.css">
+    <link rel="shortcut icon" href="../../img/Schullogo2.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <style media="screen">
+      img {
+        width: 30%;
+        height: 30%;
+        float: right;
+        position: absolute;
+        top: 40%;
+      }
+      #imgBox {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body id="wrapper">
+    <script src="../../scripts/script.js" charset="utf-8"></script>
+    <div class="MainMenu">
+    <ul class="menu">
+      <a href="../../index.html"><li id="logo"><p id="logoFont">VS Schwanenstadt</p></li></a>
+      <a href="">
+        <li id="tables" onMouseOver="dropDownUeberUnsDisplay(0)" onMouseOut="dropDownUeberUnsNone(0)">
+          <div class="hoverUnderline"></div>
+          <span>Über Uns</span>
+        </li>
+      </a>
+      <a href="">
+        <li id="projects" onMouseOver="dropDownServiceDisplay(1)" onMouseOut="dropDownServiceNone(1)">
+          <div class="hoverUnderline"></div>
+          <span>Service</span>
+        </li>
+      </a>
+      <a href="../news.html">
+        <li onMouseOver="hoverLineOn(2)" onMouseOut="hoverLineOff(2)">
+          <div class="hoverUnderline"></div>
+          <span>News</span>
+        </li>
+      </a>
+      <a href="../galerie.html">
+        <li onMouseOver="hoverLineOn(3)" onMouseOut="hoverLineOff(3)">
+          <div class="hoverUnderline"></div>
+          <span>Galerie</span>
+        </li>
+      </a>
+
+    </ul>
+
+    <ul id="DropDownUeberUns" onMouseOver="dropDownUeberUnsDisplay(0)" onMouseOut="dropDownUeberUnsNone(0)">
+      <a class="nodec" href="../ueber_uns/schulleitung.html"><li class="dropDownMenuHover">Schuleitung</li></a>
+      <a class="nodec" href="../ueber_uns/lehrerInnen.html"><li class="dropDownMenuHover">LehrerInnen</li></a>
+      <a class="nodec" href="../ueber_uns/hort.html"><li class="dropDownMenuHover">Hort</li></a>
+    </ul>
+
+    <ul id="DropDownServices" onMouseOver="dropDownServiceDisplay(1)" onMouseOut="dropDownServiceNone(1)">
+      <a class="nodec" href="elternverein.html"><li class="dropDownMenuHover">Elternverein</li></a>
+      <a class="nodec" href="freigegenstaende.html"><li class="dropDownMenuHover">Freigegenstände</li></a>
+      <a class="nodec" href="bibliothek.html"><li class="dropDownMenuHover">Schulbibliothek</li></a>
+    </ul>
+  </div>
+
+  <div id="imgBox">
+    <img src="../../img/Bibliothek.jpg" alt="Bibliothek">
+  </div>
+
+  <div class="contentWrapper">
+  <div class="content">
+    <h1>Unsere Schulbibliothek</h1>
+    <br>
+    <p>Modernes, selbsttätiges und selbstständiges Lernen ist ohne ausreichende Quellen und Medien nicht vorstellbar. Eine Schulbibliothek bietet all das.<br>
+    Unsere Schulbibliothekare, Roswitha Friedl und Andrea Schobesberger, haben im Jahr 2002 begonnen, einen kleinen Raum im Hauptgebäude als Bibliothek auszustatten. Mit ca. 1000 Büchern wurde begonnen.<br>
+    Im Jahr 2007 übersiedelte die Bücherei in einen großen, schönen Raum. Mit Hilfe und Unterstützung der Gemeinden, des Elternvereins und auch durch viele Buchspenden von Eltern und Lehrerinnen und Lehrern konnte unser Buchbestand ständig erweitert werden und liegt derzeit bei ca. 6500 Büchern. Der Schwerpunkt unserer Schulbibliothek liegt bei moderner und aktueller Kinderliteratur.
+    Unsere Schülerinnen und Schüler kommen regelmäßig in die Bibliothek zum Ausleihen und zum Schmökern. Ca. 12. 300 Entlehnungen gibt es in einem Jahr, das sind durchschnittlich 36 Bücher pro Schülerin und Schüler. Außerdem haben sie auch die Möglichkeit an vier Computerplätzen  im Internet zu recherchieren.
+    <br>Durch Vorlesestunden, Lesewettbewerbe, verschiedene Lesespiele, Lesenacht, Autorenlesungen, Buchausstellungen und vieles mehr wird die Lesemotivation und das Leseinteresse unserer Schülerinnen und Schüler gefestigt und vertieft.</p>
+
+  </div>
+  </div>
+      <footer>
+      <div class="daten">
+          <p>Linzerstraße 21</p>
+          <p>4690 Schwanenstadt</p>
+          <p>Tel.: 076773 2237</p>
+          <p>Fax: 076773 2237-20</p>
+        </div>
+        <div class="copyright">
+          <p>© Copyright by Jonas Dorfinger 2018. All Rights reserved.</p>
+        </div>
+        <div class="contact">
+          <a href="../impressum.html"><p>Impressum</p></a>
+        </div>
+      </footer>
+  </body>
+</html>

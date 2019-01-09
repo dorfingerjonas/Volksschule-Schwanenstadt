@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Schwanenstadt</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="shortcut icon" href="img/Schullogo2.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <style media="screen">
+      img {
+        width: 75%;
+        height: 75%;
+      }
+      #imgBox {
+        padding: 10%;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body id="wrapper">
+    <script src="scripts/script.js" charset="utf-8"></script>
+    <div class="MainMenu">
+    <ul class="menu">
+      <a href="index.html"><li id="logo"><p id="logoFont">VS Schwanenstadt</p></li></a>
+      <a href="">
+        <li id="tables" onMouseOver="dropDownUeberUnsDisplay(0)" onMouseOut="dropDownUeberUnsNone(0)">
+          <div class="hoverUnderline"></div>
+          <span>Über Uns</span>
+        </li>
+      </a>
+      <a href="">
+        <li id="projects" onMouseOver="dropDownServiceDisplay(1)" onMouseOut="dropDownServiceNone(1)">
+          <div class="hoverUnderline"></div>
+          <span>Service</span>
+        </li>
+      </a>
+      <a href="pages/news.html">
+        <li onMouseOver="hoverLineOn(2)" onMouseOut="hoverLineOff(2)">
+          <div class="hoverUnderline"></div>
+          <span>News</span>
+        </li>
+      </a>
+      <a href="pages/galerie.html">
+        <li onMouseOver="hoverLineOn(3)" onMouseOut="hoverLineOff(3)">
+          <div class="hoverUnderline"></div>
+          <span>Galerie</span>
+        </li>
+      </a>
+
+    </ul>
+
+    <ul id="DropDownUeberUns" onMouseOver="dropDownUeberUnsDisplay(0)" onMouseOut="dropDownUeberUnsNone(0)">
+      <a class="nodec" href="pages/ueber_uns/schulleitung.html"><li class="dropDownMenuHover">Schuleitung</li></a>
+      <a class="nodec" href="pages/ueber_uns/lehrerInnen.html"><li class="dropDownMenuHover">LehrerInnen</li></a>
+      <a class="nodec" href="pages/ueber_uns/hort.html"><li class="dropDownMenuHover">Hort</li></a>
+      <a class="nodec" href="pages/ueber_uns/schulwart.html"><li class="dropDownMenuHover">Schulwart</li></a>
+    </ul>
+
+    <ul id="DropDownServices" onMouseOver="dropDownServiceDisplay(1)" onMouseOut="dropDownServiceNone(1)">
+      <a class="nodec" href="pages/service/elternverein.html"><li class="dropDownMenuHover">Elternverein</li></a>
+      <a class="nodec" href="pages/service/freigegenstaende.html"><li class="dropDownMenuHover">Freigegenstände</li></a>
+      <a class="nodec" href="pages/service/bibliothek.html"><li class="dropDownMenuHover">Schulbibliothek</li></a>
+    </ul>
+  </div>
+  <div id="imgBox">
+    <img src="img/Schulfoto.png" alt="Schulfoto">
+  </div>
+      <footer>
+      <div class="daten">
+          <p>Linzerstraße 21</p>
+          <p>4690 Schwanenstadt</p>
+          <p>Tel.: 076773 2237</p>
+          <p>Fax: 076773 2237-20</p>
+        </div>
+        <div class="copyright">
+          <p>© Copyright by Jonas Dorfinger 2018. All Rights reserved.</p>
+        </div>
+        <div class="contact">
+          <a href="pages/impressum.html"><p>Impressum</p></a>
+        </div>
+      </footer>
+  </body>
+</html>

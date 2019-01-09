@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Schwanenstadt</title>
+    <link rel="stylesheet" href="../style/menu.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="shortcut icon" href="../img/Schullogo2.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <style media="screen">
+    img {
+      width: 175px;
+      height: 175px;
+      border: 3px solid #444444;
+      border-radius: 3px;
+      transition: all 0.4s linear;
+    }
+    img:hover {
+      transform: scale(1.4);
+    }
+    #img {
+      max-width: 45vw;
+    }
+    #coverBox {
+      display: flex;
+      justify-content: center;
+      margin: 6.5% 0 0 0
+    }
+    </style>
+  </head>
+  <body id="wrapper">
+    <script src="../scripts/script.js" charset="utf-8"></script>
+    <div class="MainMenu">
+    <ul class="menu">
+      <a href="../index.html"><li id="logo"><p id="logoFont">VS Schwanenstadt</p></li></a>
+      <a href="">
+        <li id="tables" onMouseOver="dropDownUeberUnsDisplay(0)" onMouseOut="dropDownUeberUnsNone(0)">
+          <div class="hoverUnderline"></div>
+          <span>Über Uns</span>
+        </li>
+      </a>
+      <a href="">
+        <li id="projects" onMouseOver="dropDownServiceDisplay(1)" onMouseOut="dropDownServiceNone(1)">
+          <div class="hoverUnderline"></div>
+          <span>Service</span>
+        </li>
+      </a>
+      <a href="news.html">
+        <li onMouseOver="hoverLineOn(2)" onMouseOut="hoverLineOff(2)">
+          <div class="hoverUnderline"></div>
+          <span>News</span>
+        </li>
+      </a>
+      <a href="galerie.html">
+        <li onMouseOver="hoverLineOn(3)" onMouseOut="hoverLineOff(3)">
+          <div class="hoverUnderline"></div>
+          <span>Galerie</span>
+        </li>
+      </a>
+
+    </ul>
+
+    <ul id="DropDownUeberUns" onMouseOver="dropDownUeberUnsDisplay(0)" onMouseOut="dropDownUeberUnsNone(0)">
+      <a class="nodec" href="ueber_uns/schulleitung.html"><li class="dropDownMenuHover">Schuleitung</li></a>
+      <a class="nodec" href="ueber_uns/lehrerInnen.html"><li class="dropDownMenuHover">LehrerInnen</li></a>
+      <a class="nodec" href="ueber_uns/hort.html"><li class="dropDownMenuHover">Hort</li></a>
+    </ul>
+
+    <ul id="DropDownServices" onMouseOver="dropDownServiceDisplay(1)" onMouseOut="dropDownServiceNone(1)">
+      <a class="nodec" href="service/elternverein.html"><li class="dropDownMenuHover">Elternverein</li></a>
+      <a class="nodec" href="service/freigegenstaende.html"><li class="dropDownMenuHover">Freigegenstände</li></a>
+      <a class="nodec" href="service/bibliothek.html"><li class="dropDownMenuHover">Schulbibliothek</li></a>
+    </ul>
+  </div>
+    <h1>Galerie</h1>
+  <div id="coverBox">
+  <div id="img">
+    <img src="../img/galerie/Galerie (1).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (2).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (3).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (4).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (5).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (6).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (7).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (8).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (9).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (10).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (11).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (12).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (13).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (14).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (15).jpg" alt="Bildergalerie">
+    <img src="../img/galerie/Galerie (16).jpg" alt="Bildergalerie">
+  </div>
+  </div>
+
+  <footer>
+  <div class="daten">
+      <p>Linzerstraße 21</p>
+      <p>4690 Schwanenstadt</p>
+      <p>Tel.: 076773 2237</p>
+      <p>Fax: 076773 2237-20</p>
+    </div>
+    <div class="copyright">
+      <p>© Copyright by Jonas Dorfinger 2018. All Rights reserved.</p>
+    </div>
+    <div class="contact">
+      <a href="impressum.html"><p>Impressum</p></a>
+    </div>
+  </footer>
+  </body>
+</html>

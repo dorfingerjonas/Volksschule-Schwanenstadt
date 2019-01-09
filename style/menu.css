@@ -1,0 +1,122 @@
+/* Allgemeine Eigenschaften*/
+html {
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+body {
+  padding: 0; margin: 0;
+}
+
+*{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+
+#logo {
+  width: 25%;
+  height: 20px;
+  color: white;
+
+}
+
+#logoFont {
+  position: fixed;
+  color: white;
+  left: 1%;
+  font-size: 170%;
+}
+
+/*Dropdown*/
+
+.MainMenu {
+	z-index: 50;
+	position: fixed;
+	height: 10%;
+  width: 100%;
+	background-color: #5A93F5;
+  color: black;
+  font-family: 'Francois One', sans-serif;
+}
+
+.menu {
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+  margin: 0;
+	opacity: 0.95;
+}
+
+.menu li {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 450%;
+	text-align: center;
+	display: block;
+	font-size: 150%;
+	width: 15%;
+	color: white;
+	overflow: hidden;
+	float: left;
+}
+
+.menu a {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+}
+
+.hoverUnderline {
+	position: relative;
+	top: 90%;
+	background: #FFFA6A;
+	height: 5%;
+	width: 100%;
+	transform: scale(0, 1);
+	transition: all 0.5s;
+}
+
+.nodec {
+	color: #444444;
+	text-decoration: none;
+}
+
+.dropDownMenuHover:hover {
+	background-color: #BDBDBD;
+}
+
+#DropDownServices {
+	z-index: 50;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	height: 0;
+	background-color: #DBD5D5;
+	overflow: hidden;
+	list-style: none;
+	width: 15%;
+	left: 40%;
+	transition: all 0.5s;
+}
+
+#DropDownUeberUns {
+	z-index: 50;
+	position: absolute;
+	margin: 0;
+  padding: 0;
+	text-align: center;
+	line-height: 50px;
+	height: 0;
+	background-color: #DBD5D5;
+	overflow: hidden;
+	list-style: none;
+	width: 15%;
+	left: 25%;
+	transition: all 0.5s;
+}
